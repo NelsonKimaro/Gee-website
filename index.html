@@ -154,32 +154,20 @@
 					</p>
 				</div>
 				<div class="welcome-hero-serch-box">
-					<div class="welcome-hero-form">
-						<div class="single-welcome-hero-form">
-							<h3>Search for a product</h3>
-							<form action="index.html">
-								<input type="text" placeholder="Ex: Hair oil, body scrub, perfume, vaseline" />
-							</form>
-							<div class="welcome-hero-form-icon">
-								<i class="flaticon-list-with-dots"></i>
-							</div>
-						</div>
-						<div class="single-welcome-hero-form">
-							<h3>location</h3>
-							<form action="index.html">
-								<input type="text" placeholder="Ex: london, newyork, rome" />
-							</form>
-							<div class="welcome-hero-form-icon">
-								<i class="flaticon-gps-fixed-indicator"></i>
-							</div>
-						</div>
-					</div>
-					<div class="welcome-hero-serch">
-						<button class="welcome-hero-btn" onclick="window.location.href='#'">
-							 search  <i data-feather="search"></i> 
+					<form class="search-form">
+						<select class="search-category">
+							<option value="all">All Categories</option>
+							<option value="electronics">Electronics</option>
+							<option value="books">Books</option>
+							<option value="fashion">Fashion</option>
+						</select>
+						<input type="text" placeholder="Search Amazon">
+						<button type="submit" class="search-button">
+							<img src="search-icon.png" alt="Search">
 						</button>
-					</div>
+					</form>
 				</div>
+				
 			</div>
 
 		</section><!--/.welcome-hero-->
