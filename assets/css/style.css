@@ -257,7 +257,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
     left: 0;
     width: 100%;
     height: 100%;
-    background:(rgba(65, 127, 252, 0.326)); 
+    background:(rgba(65, 127, 252, 0.2)); 
     z-index: -1;
 }
 .welcome-hero-txt { padding-top: 155px;}
@@ -276,14 +276,14 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
     margin-top: 25px;
 }
 
-/* .welcome-hero-serch-box{margin-top: 78px;display: flex;}
+.welcome-hero-serch-box{margin-top: 78px;display: flex;}
 .welcome-hero-form {
     display: flex;
     background: #fff;
     height: 70px;
     border-radius: 3px;
     width: 85%;
-} */
+}
 /* .single-welcome-hero-form {
     position: relative;
     display: flex;
